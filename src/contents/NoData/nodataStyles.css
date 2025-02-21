@@ -1,0 +1,3 @@
+.container-nodata {
+    @apply bg-[#f4f4f4] text-center text-gray-500;
+}

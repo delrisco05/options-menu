@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.design {
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+    border: 1px solid rgb(211, 210, 210);
+}
+
+.icon-hover {
+  filter: none;
+}
+
+.icon-hover:hover {
+  filter: invert(18%) sepia(100%) saturate(7483%) hue-rotate(1deg) brightness(103%) contrast(104%);
+}
+
+.icon-red {
+  filter: invert(18%) sepia(100%) saturate(7483%) hue-rotate(1deg) brightness(103%) contrast(104%);
+}
